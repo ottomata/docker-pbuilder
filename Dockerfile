@@ -33,4 +33,4 @@ COPY pbuilderrc /etc/pbuilderrc
 COPY create_cowbuilder_envs.sh /usr/local/bin/create_cowbuilder_envs.sh
 RUN chmod 744 /usr/local/bin/create_cowbuilder_envs.sh
 
-# RUN /usr/local/bin/create_cowbuilder_envs.sh
+RUN /usr/local/bin/create_cowbuilder_envs.sh
